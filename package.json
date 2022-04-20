@@ -17,14 +17,19 @@
     "vue": "^3.2.25"
   },
   "devDependencies": {
+    "@iconify-json/carbon": "^1.1.1",
+    "@iconify/json": "^2.1.30",
     "@types/chrome": "^0.0.181",
+    "@types/fs-extra": "^9.0.13",
     "@types/node": "^17.0.25",
     "@vitejs/plugin-vue": "^2.3.1",
+    "fs-extra": "^10.1.0",
     "rollup": "^2.70.2",
     "rollup-plugin-chrome-extension": "^4.0.1-24",
     "rollup-plugin-zip": "^1.0.3",
     "typescript": "^4.5.4",
     "unplugin-auto-import": "^0.7.1",
+    "unplugin-icons": "^0.14.1",
     "unplugin-vue-components": "^0.19.3",
     "vite": "^2.9.5",
     "vue-tsc": "^0.34.7"

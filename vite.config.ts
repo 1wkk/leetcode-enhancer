@@ -6,6 +6,7 @@ import zip from 'rollup-plugin-zip'
 import { resolve } from 'path'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
+import Icons from 'unplugin-icons/vite'
 
 const isProd = process.env.NODE_ENV === 'production'
 
@@ -27,6 +28,10 @@ export default defineConfig({
       // allow auto import and register components used in markdown
       include: [/\.vue$/, /\.vue\?vue/],
       dts: 'src/components.d.ts'
+    }),
+    Icons({
+      // expiremental
+      autoInstall: true
     }),
     vue({
       reactivityTransform: true
