@@ -1,38 +1,28 @@
-# Crx
+# LeetCode Enhancer
 
-Chrome extension development template based on [Vite](https://github.com/vitejs/vite), [Vue.js](https://vuejs.org/) and [rollup-plugin-chrome-extension](https://github.com/extend-chrome/rollup-plugin-chrome-extension).
+Chrome extension development based on [Crx](https://github.com/echoeureka/crx).
 
-## Usage
+## 使用
 
-```
-$ npx degit echoeureka/crx project
-```
+安装 dist 目录即可
 
-### Install
+## 功能
 
-```bash
-pnpm install
-```
+- ✨ 获取题目对应的比赛，方便以比赛为单位刷题
 
-### Development
+![](./public/Diana.png)
 
-```bash
-pnpm dev
-```
+## TODO
 
-### Build
-
-```bash
-pnpm build
-```
-
-## Features
-
-- ✨ Vite HMR
-- ✨ Smart manifest build
+你来提
 
 ## 🙏THX
 
-- [Vite](https://github.com/vitejs/vite)
-- [Vue.js](https://vuejs.org/)
-- [rollup-plugin-chrome-extension](https://github.com/extend-chrome/rollup-plugin-chrome-extension)
+- [Crx](https://github.com/echoeureka/crx)
+- [可爱抱抱呀 😥](https://leetcode-cn.com/u/v7fgg/)
+
+- [Ava 向晚](https://space.bilibili.com/672346917)
+- [Bella 贝拉](https://space.bilibili.com/672353429)
+- [Carol 珈乐](https://space.bilibili.com/351609538)
+- [Diana 嘉然](https://space.bilibili.com/672328094)
+- [Eileen 乃琳](https://space.bilibili.com/672342685)
