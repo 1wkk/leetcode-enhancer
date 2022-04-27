@@ -24,7 +24,10 @@ const manifest: ManifestV3Export = {
       128: 'src/assets/favicon-96.png'
     }
   },
-  host_permissions: ['https://leetcode-cn.com/problems/*/'],
+  host_permissions: [
+    'https://leetcode-cn.com/problems/*/',
+    'https://leetcode.cn/problems/*/'
+  ],
   permissions: ['storage', 'activeTab', 'scripting', 'webNavigation']
 }
 
