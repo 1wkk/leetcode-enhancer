@@ -23,7 +23,8 @@
     }
   },
   "host_permissions": [
-    "https://leetcode-cn.com/problems/*/"
+    "https://leetcode-cn.com/problems/*/",
+    "https://leetcode.cn/problems/*/"
   ],
   "permissions": [
     "storage",

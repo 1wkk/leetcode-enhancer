@@ -40,7 +40,10 @@ chrome.webNavigation.onCompleted.addListener(
     })
   },
   {
-    url: [{ urlContains: 'leetcode-cn.com/problems/' }]
+    url: [
+      { urlContains: 'leetcode-cn.com/problems/' },
+      { urlContains: 'leetcode.cn/problems/' }
+    ]
   }
 )
 
@@ -55,7 +58,10 @@ chrome.webNavigation.onHistoryStateUpdated.addListener(
     })
   },
   {
-    url: [{ urlContains: 'leetcode-cn.com/problems/' }]
+    url: [
+      { urlContains: 'leetcode-cn.com/problems/' },
+      { urlContains: 'leetcode.cn/problems/' }
+    ]
   }
 )
 
